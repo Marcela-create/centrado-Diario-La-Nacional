@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon" href="img/favicon.ico">
+    <title>"Diario El Nacional"</title>
+   
+    <script src="Js/menu.js"></script>
+    <script src="Js/time.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap" rel="stylesheet">
+</head>
+   <body> 
+      <header>
+         <div class="titulo">         
+             <img class="logo" src="img/LN mediano.jpg"> 
+             <div id="reloj"class="digital" >
+               <script >
+                 document.write("Hora:"+ getHours(),"Minutos: "+ getMinutes(),"Segundos: "+ getSeconds());
+               </script>
+             </div>  
+           <div class="encabezado">
+              <h1>Diario La Nacional</h1>
+                  <div class="btn_menu"><a>menu</a></div>
+           </div>    
+         </div>
+           <nav class="menu">
+              <ul class="navigation">
+                <li class="indicador"><a href="index.html"><div class="colorear">Home</div></a></li>              
+                <li class="link"><a href="politica.html"> Noticias políticas</a></li>
+                <li class="link"><a href="deportes.html"> Noticias deportivas</a></li>
+                <li class="link"><a href="espectaculos.html">Espectaculos</a></li>
+                <li class="link"><a href="sucursales.html"> Sucursales</a></li>
+                <li class="link "><a href="registrarse.html">Regístrese</a></li>                                   
+              </ul>
+           </nav>               
+      </header>
+    </body>
+  <section >
+      <div class="dosColumnas">
+       <article>              
+          <td li class="alto"rowspan="1"><li-2 class="link-2"><a href="politica.html"> <h2>Noticias políticas</h2></a>
+          <p> ¿Qué sabemos de la causa por el atentado contra Cristina Fernández?La vicepresidenta alcanzó a cubrirse el rostro con las manos y agacharse...</p> </li></td>
+          <img class="imgArticle" src="img/imagen politica.jpg">    
+          <td li class="alto" rowspan="1"><li-2 class="link-2"></li-2><a href="espectaculos.html"><h2>LLS COMPANY A PURA OVACION</h2></a><p> Es un show que combina luces, color y musica para transportar al publico a un mundo magico. <br>
+            Dos horas de pura fascinacion que te dejara con la boca abierta. <br>
+            Estaran todos los sabados del mes en el Luna Park. RECOMENDADO!!</p></li></td>
+        
+          <img class="imgArticle" src="img/espectaculo2.jpg">               
+       </article>
+       <article>
+          <td li class="alto" rowspan="1"><li-2 class="link-2"><a href="deportes.html"> <h2>Noticias deportivas</h2></a>
+          <h2>Furia Leona</h2>
+          <p>  Las Leonas estallaron de bronca luego de que les cancelaron el vuelo!</p></li></td>
+          <img class="imgArticle" src="img/imagen deporte.jpg">    
+          <td li class="alto"rowspan="1"><li-2 class="link-2"><a href="registrarse.html"> <h2>¡Registrate y ganá el curso de programación!</h2></a>
+          <p> Es nuestro aniversario, queremos que puedas ganarte el curso de programación, ¿te interesa? registrate!</p> </li></td>
+          <img class="imgArticle" href="deportes.html" src="img/participa en el sorteo.gif" ></li></td>           
+       </article>          
+     </div>
+  </section>
+  <footer> 
+     <h4>*DIARIO LA NACIONAL* Edición N° 1 *AÑO 2022*</h4>
+     <h5>Derechos reservados @ 2022</h5>
+     <div>
+       <span>seguinos en redes sociales:</span>
+       <img class="iconos" src="img/twitter.jpg">
+       <img class="iconos" src="img/facebook.png">
+       <img class="iconos" src="img/instagram.png">
+     
+      </div>
+ </footer>    
+
+
+</html>

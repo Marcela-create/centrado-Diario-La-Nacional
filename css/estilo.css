@@ -1,0 +1,995 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* el logo no se coloca*/
+body{
+    background-color: rgb(185, 185, 185);
+}
+h1{
+    font-size: 30px;
+    text-shadow: 0.1em 0.1em 0.2em black;
+}
+header{
+
+    display: flex;
+    flex-direction: column;
+     background-color: rgb(113, 133, 207);
+     width:100vw;
+}
+
+.logo{
+    display: none;
+    width: 20vw;
+    height: 20vh;
+    
+}
+.titulo {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding: 10px;
+    color: whitesmoke;
+    width:100%;
+}
+.encabezado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.btn_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15PX;
+    width: 40%;
+    border-bottom: 2px solid white;
+}
+
+.btn_menu a{
+    color:rgb(247, 253, 247);
+    text-decoration: none;
+    
+}
+
+.menu {
+    border-bottom: 2px solid white;
+    border-radius: 10px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(20, 4, 57); 
+    margin-bottom: 6px;
+}
+
+ul.navigation {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+    flex-direction: column;
+}
+.dosColumnas{
+    display: inline-block;
+    margin-top: 25px;
+   
+}
+    /* si tiene tambien la clase show */
+    ul.navigation.show {
+        display: flex;
+    }
+
+ul.navigation li {
+    list-style: none;
+    margin:0px;
+    padding:15px 20px; 
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(184, 184, 184);
+    
+}
+
+ul.navigation li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul.navigation li:hover {
+    background-color: rgb(30, 16, 160);
+    border-radius:10px ; 
+    box-shadow:0 5px 5px 2px rgb(247, 245, 245);
+}
+footer{
+    background-color: rgb(113, 133, 207);
+    text-align: center;
+    color: white;
+   padding: 5px;
+   margin-top: 10px;
+}
+.colorear{
+    background-color: rgb(113, 133, 207);
+}
+footer span img{
+    max-width:20px;
+    max-height:20px;
+}
+.imgArticle{  /*imagenes del index*/
+    width: 90%;
+    border: 10px;
+    padding: 0px;
+    height: auto;
+    image-orientation: center;
+    border-style: ridge;
+    border-radius: 6px;
+    border: #7145e9;
+    text-align: center;
+    
+} 
+
+.link-2 a{
+    text-decoration: none;
+    margin-top: -20px;
+}
+/*sección article del home*/
+article{
+    background-color: rgb(164, 175, 218);
+    display: grid;
+    border: solid rgb(75, 75, 162);
+    margin: auto;
+   justify-content: center;
+   width: 340px;
+   border-radius: 6px;
+}
+/*casa de cambio*/
+.container2{
+    width: auto;
+    border: 10px;
+    padding: 1px;
+    height: 30%;
+    image-orientation: center;
+    border-style: ridge;
+    border-radius: 6px;
+    
+
+}
+.formulario{
+    background-color: #f5e531;
+    width:90%;
+    height: 250px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 19px;
+    font-family: monospace;
+    text-align: center;
+}
+#uno,#dos{
+    width: 80px;
+    height: 15px;
+}
+#valor{
+    font-size: 20px;   
+}
+#cotizador{
+    font-size: 20px;
+    border-radius: 12px;
+    background-color: #0016b0;
+    color: white;
+}
+.container-dolar{
+    background-color: #f5e531;
+    margin: 20px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: monospace;
+}
+
+.titulo-dolar{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.venta{
+    margin: 15px 0;
+}
+
+.compra{
+    margin: 15px 0;
+}
+/*anuncios del carroussel*/
+#anuncios{
+    width: 100%;
+    height: 180px;
+    margin-top: 5px;
+}
+
+/*fecha*/
+#fecha{
+    width: 100%;
+    border: 10px;
+    padding: 1px;
+    height: 30%;
+    image-orientation: center;
+    border-style: ridge;
+    border-radius: 6px;
+}
+.digitalizado{
+    font-family: "DS-Digital"; 
+    width: 350px; 
+    background-color: black;
+    font-size:25px;
+    color: green ; 
+    text-align: center;
+    margin-top: 20px;
+}
+/*reloj del título*/
+
+#reloj{
+    width: min-content;
+    border: 10px;
+    padding: 0px;
+    height: 0%;
+    image-orientation: center;
+    border-style: ridge;
+    border-radius: 6px;
+    display: flex;
+}
+.digital{
+    font-family: "DS-Digital";
+    background-color: black;
+    color: rgb(193, 230, 32) ; 
+    font-size:30px;
+    text-align: center;
+    width: min-content;
+}
+.imgespectaculo{
+    width: 80px;
+    height: 50px;
+}
+.container{
+    font-size: x-large;
+}
+.corona{
+    width: 100%;
+}
+/*sección deporte y company de espectaculos*/
+
+.imagDeporte{
+    width: min-content;
+  
+}
+
+.textoDeporte{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin: 50px;
+    width: 90%;
+    margin-bottom: 5px;
+    font-size: smaller;
+}
+.deportes{
+    display: inline-block;
+    width: 300px;
+    height: max-content;
+    background:rgb(90, 110, 190);
+    text-align: center;
+    margin: 1rem;
+   
+   margin-top: 0.5rem;
+   border-radius: 10px;
+   font-size: large;
+}
+/*presentacion de la tabla de deporte*/
+.form-campeon {
+    background-color:rgb(164, 175, 218);
+    width: auto;  
+    margin-top: auto;
+    margin-left: auto; 
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+    text-size-adjust: 0.5rem;
+}
+h2{ 
+    color:rgb(15, 2, 39);
+    padding: 20px;
+    text-shadow: 0.1em 0.1em 0.2em rgb(191, 228, 191);
+    text-align: center;
+    font-size: large;
+
+}
+h4{
+    font-size: medium;
+}
+/*tabla deporte*/
+.pintar1{
+    background-color: rgb(8, 181, 8);  
+    width: max-content;
+    text-align: center;
+    font-size: smaller;
+}
+.escudo{
+    width: 130px;
+}
+.pintar2{
+    background-color: #f5e531;
+    width: max-content;
+    font-size: smaller;
+}
+.pintar3{
+    background-color: #4f604f;
+    width: max-content;
+    font-size: smaller;
+}
+th{
+    background-color: #4f604f;
+    color: white;
+}
+tfoot{
+    background-color: antiquewhite;
+    color: black;
+    text-align: center;
+    
+}
+.main{
+    display: grid;
+}
+table,td,tr{
+     border: 1px solid black;
+     border-collapse: collapse;
+     font-size: small;
+     font-family: Arial, Helvetica, sans-serif;
+     margin-left: 0px;
+}
+
+aside{
+    display: inline-block;
+    width: 300px;
+    background:rgb(90, 110, 190);
+    text-align: center;
+    margin: 1rem;
+   height: 650px;
+   margin-top: 0.5rem;
+   border-radius: 10px;
+   font-size: large;
+}
+/*seccion registro*/
+.derecha{
+     text-align: left;
+     margin-left: 5px;
+} 
+.sectionform-register {
+    background-color: rgb(90, 110, 190);
+    padding: 5px;
+    display:inline-flex;
+    flex-direction: column;
+}
+.form-register {
+    background-color:rgb(90, 110, 190);
+    font-size: smaller; 
+}
+.select{
+    text-align:left;   
+}
+/*seccionsucursales*/
+
+.map > iframe{
+    margin: 0.1rem;
+    width: 220px;
+     margin-top: 5px;
+     
+ }
+
+ .sucursales{
+     background-color:rgb(198, 206, 238);
+     width: 450px;
+     display: inline;
+     display: block;
+     border-radius: 10px;
+  
+     margin-top: 25px;
+     font-size: smaller;
+     
+ }
+ 
+    .visita{
+        display: center;
+         width: 300px;
+         height: min-content;
+    }
+ 
+@media screen and (min-width: 660px){
+
+    /* en desktop ocultamos siempre el boton del menu */
+    .btn_menu {
+       display: none;
+       
+    }
+   
+    #reloj{
+        margin: 50px;
+        width: 50rem;
+        border: 30px;
+    padding: 0px;
+    height: 0%;
+    image-orientation: center;
+    border-style: ridge;
+    border-radius: 8px;
+    display: flex;
+    }
+    .digital{
+        font-family: "DS-Digital";
+        background-color: black;
+        color: rgb(193, 230, 32) ; 
+        font-size:80px;
+        text-align: center;
+        width: max-content;
+        font-size: 12rem;
+    }
+   /* cambiamos la direccion del flex */
+    ul.navigation {
+        display: flex;
+        flex-direction: row;
+        font-size: 5rem;
+    }
+     ul.navigation li {
+        border-radius:0px;
+        border-bottom: 0px;
+     }
+    body{
+        padding-top: 200px;
+    }
+    h4{
+        font-size: 5rem;
+    }
+    h5{
+        font-size: 4rem;
+    }
+    span{
+        font-size: 4rem;
+    }
+    h1{
+        font-size: 20rem;
+    }
+    header{
+        flex-direction: column;
+       position: fixed;
+       top: 0
+             
+    }
+    .logo{
+        display: block;
+        width: 20%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .indicador{
+    background-color: rgb(33, 7, 104);
+    border-radius:10px ; 
+    box-shadow:0 5px 5px 2px rgb(247, 245, 245);
+    }
+    h2,h3{
+        color:rgb(15, 2, 39);
+        padding: 20px;
+        text-shadow: 0.1em 0.1em 0.2em rgb(191, 228, 191);
+        text-align: center;
+        font-size: 8rem;
+    }
+    p{
+        margin: 5px 20px 5px 20px ;
+        color:rgb(16, 15, 15); 
+        font-size: 5rem;
+    }
+    .iconos{
+        width: 5%;
+    }
+    /*seccion index*/
+    .imgArticle{  /*imagenes del index*/
+        width: 90%;
+        border: 10px;
+        padding: 0px;
+        height: auto;
+        image-orientation: center;
+        border-style: ridge;
+        border-radius: 6px;
+        border: #7145e9;
+    } 
+    .link-2 a{
+        text-decoration: none;
+        margin-top: -20px;
+        text-align: center;
+    }
+    /*sección article del home y politica*/
+    article{
+        background-color: rgb(164, 175, 218);
+        display: grid;
+        border: solid rgb(75, 75, 162);
+        margin: 20px;
+       justify-content: center;
+       width: 100%;
+       border-radius: 6px;
+       text-align: center;
+    }
+    
+    
+    .dosColumnas{
+        display: flex;
+        margin-top: 30rem;
+       
+    }
+    footer{
+        background-color: rgb(113, 133, 207);
+        text-align: center;
+        color: white;
+       padding: 5px;
+       margin-top: 10px;
+    }
+    
+    footer span img{
+        max-width:20px;
+        max-height:20px;
+    }
+    /*Seccion politica*/
+     /*casa de cambio*/
+    .container2{
+        width: 120rem;
+        border: 50px;      
+        height: 210rem;
+        image-orientation: center;
+        border-style: ridge;
+        border-radius: 6px;
+        
+     }
+    .formulario{
+        background-color: #f5e531;
+        width:98%;
+        height: 50rem;
+        margin: 20px;
+        margin-top: 5px;
+        font-size: 5rem;
+        font-family: monospace;
+        text-align: center;
+     }
+    #uno,#dos{
+       width: 7rem;
+       height: 10rem;
+     }
+     #valor{
+    font-size: 5rem;   
+    }
+    #cotizador{
+       font-size: 5rem;
+       border-radius: 12px;
+       background-color: #0016b0;
+       color: white;
+
+    }
+    .container-dolar{
+        background-color: #f5e531;
+        margin: 20px;
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: monospace;
+        text-decoration-line: underline;
+        margin-top: 0px;
+        margin-bottom: -150px;
+       font-size: 5rem;
+       
+    }
+    
+    .titulo-dolar{
+        font-size: 25px;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+    
+    .venta{
+        margin: 15px 0;
+    }
+    
+    .compra{
+        margin: 15px 0;
+    }
+    
+    /*fecha*/
+    #fecha{
+       width: 120rem;
+       border: 50px;
+       padding: 1px;
+       height: 20rem;
+       image-orientation: center;
+       border-style: ridge;
+       border-radius: 6px;
+   }.digitalizado{
+       font-family: "DS-Digital"; 
+       width: 100%; 
+       background-color: black;
+       font-size:8rem;
+       color: green ; 
+       text-align: center;
+    }
+    
+     /* anuncios del carroussel*/
+   #anuncios{
+       width: 100%;
+       height: 55rem;
+       margin-top: 30px;
+    }
+    .cocacola{
+        margin-top:2rem;
+        width: 120rem;
+    }
+    .animate__hinge{
+        margin-top: 15rem;
+    }
+    .animate__rollIn{
+        margin-bottom: -13rem;
+    }
+  /* secciondeporte*/
+   .imagDeporte{
+      
+       float: left;
+       margin: 10px;
+       margin-top: 10px;
+       width: 100rem;
+    }
+
+    .textoDeporte{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        margin: 50px;
+        width: 90%;
+        margin-bottom: 5px;
+    }
+     /*las leonas de deportes y company de espectaculos*/
+    .deportes{
+        background-color:rgb(90, 110, 190);
+        width: 100%; 
+        height: max-content; 
+        margin-top: 30rem;
+        margin-bottom: 4rem;
+        margin-left: 40px;
+        display: block;
+        text-decoration: none;
+        border-radius: 6px;
+        border: 1px solid rgb(36, 5, 160);
+     }
+      /*encabezado de la tabla*/
+    .form-campeon {
+        background-color:rgb(164, 175, 218);
+        width: 100%; 
+        height:55rem; 
+        margin-top: 1.5rem;
+        margin-left: 40px; 
+        display: block;
+        border-radius: 10px;
+         text-decoration: none;
+     }
+
+     /*tabla deporte*/
+    .pintar1{
+       background-color: rgb(8, 181, 8);  
+       width: max-content;
+       text-align: center;
+    }
+
+    .pintar2{
+       background-color: #f5e531;
+       width: max-content;
+       font-size: 4rem;
+    }
+    .pintar3{
+       background-color: #4f604f;
+       width: max-content;
+    }
+    th{
+        background-color: #4f604f;
+        color: white;
+    }   
+    tfoot{
+       background-color: antiquewhite;
+       color: black;
+       text-align: center;   
+    }
+    .escudo{
+        width: 55rem;
+    }
+   .main{
+    display: grid;
+    }
+    table,td,tr{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 8px 10px;font-family: Arial, Helvetica, sans-serif;
+        font-size: 6rem
+     
+    }
+    table{
+        height: 150rem;
+        margin-left: 20px;
+        margin-top: -19rem;
+        margin-bottom: 30px;
+    }
+    aside{
+        display: inline-block;
+        width: 110rem;
+        background:rgb(90, 110, 190);
+        text-align: justify;
+        margin: 4rem;
+        height: 150rem;
+        margin-top: -19rem;
+        border-radius: 10px;
+        font-size: large;
+     }
+  /*sección espectaculos*/
+  .dos-columnas{
+      margin-top: 120rem;
+      display: flexbox;
+  }
+
+/*seccion registro*/
+.form-register {
+    background-color:rgb(90, 110, 190);
+    width: 99%;  
+    margin: 20px;
+    display: block;
+    height: 180rem;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.derecha{
+     text-align: left;
+     margin-left: 35px;
+} 
+.sectionform-register {
+    width: 280rem;
+    background-color: rgb(90, 110, 190);
+    padding: 10px;
+    
+}
+.select{
+    text-align:left;
+    
+}
+input[type=radio] {
+    margin-top: 5rem;
+    border: 0px;
+    width: 5rem;
+    height: 5rem;
+}
+input[type=checkbox] {
+    border: 0px;
+    width: 5rem;
+    height: 5rem;
+}
+.animate__wobble{
+     margin-top: 30rem;
+    margin-bottom: -3rem;
+ }
+
+.boton{
+    text-align:left;
+    margin-left: 1.2em;
+   
+}
+.fcc-btn {
+    background-color: white;
+    color:black;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid black;
+  }
+  /*seccionsucursales*/
+
+
+.map > iframe{
+   margin: 1.2rem;
+   width: 48%;
+    margin-top: 10px;
+    height: 90rem;
+    margin-left: 2rem;
+    
+}
+
+.sucursales{
+    background-color:rgb(163, 174, 221);
+    width: 100%;
+    margin-top: 03px;
+    display: inline;
+    display: block;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 25px;
+}
+.visita{
+    display: center;
+    margin-top:35rem ;
+     width: 80%;
+}
+/*seccionespectaculo*/
+.Imgesp{
+    width: 99%;   
+    height: auto;
+    image-orientation: center;
+    border-style: ridge;
+    border-radius: 6px;
+    border: #7145e9;
+ }
+.container{
+    margin-top: 1rem;
+    background-color: rgb(164, 175, 218);
+    display: grid;     
+   justify-content: center;
+   width: 350px;
+   border-radius: 6px;
+   font-size: 8rem;
+}
+.fritas{
+       margin-top: 15rem;
+}
+.imagen-espect{
+    display: center;
+    margin-left: 50px;  
+}
+.dos-columnas{    
+    display: flex;
+    margin-top: 30rem;
+    
+}
+.corona{
+    margin-top: 15rem;
+}
+
+/*aclara color para ver link de términos y condiciones*/
+.opciones{
+    background: #b4a0eb;
+    width: max-content;
+}
+
+.botton{
+    border-color: black;
+
+}
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media screen (min-width: 1200px) {
+    
+     /*sección article del home y politica*/
+    .article{
+        margin: 10px; 
+       width:600px; 
+    
+    }
+   
+    h2{ 
+        
+        font-size: xx-large;    
+    }
+
+    .imgArticle{  /*imagenes del index*/
+        width: 99%;     
+    } 
+
+    .dosColumnas{
+        display:flex;
+        margin-top: 14rem;
+        
+    }
+    #reloj{
+        margin: 20px;
+    }
+    h1{
+        font-size: 80px;
+    }
+    /* sección política*/
+    .animate__hinge{
+        margin-top: 8rem;
+    }
+    .animate__rollIn{
+        margin-bottom: -13rem;
+    }
+    .container2{
+        width: 100%;
+        border: 10px;
+        padding: 1px;
+        height: 900px;
+        image-orientation: center;
+        border-style: ridge;
+        border-radius: 6px;
+     }
+    .formulario{
+        width:95%;
+        height: 180px;
+        margin: 10px;  
+        font-size: 20px;  
+     }
+    #uno,#dos{
+       width: 80px;
+       height: 15px;
+     }
+     #valor{
+    font-size: 20px;   
+    }
+    #cotizador{
+       font-size: 20px;
+       border-radius: 12px;
+       background-color: #0016b0;
+       color: white;
+    }
+    .container-dolar{
+      
+        margin: 10px;
+        width: 95%;
+        
+    }
+    p{
+      font-size: large;
+    }
+    /*sección deportes*/
+   aside{
+      
+        margin: 1rem;
+        height: 750px;
+        margin-top: -12rem;
+       
+     }
+     table{
+        
+        margin-top: -12rem;
+       
+    }
+    .form-campeon {
+      
+        width: 90%;  
+    
+     }
+      /*las leonas de deportes y company de espectaculos*/
+ .deportes{
+    width: 90%;  
+    margin-top: 14rem;
+   
+ }
+ .dos-columnas{    
+  
+    margin-top: 13rem;
+    margin-bottom: -13rem;
+ }
+ .sucursales{
+    margin-top: 13rem;
+    width: 90%;
+}
+.visita{
+    width: 80%;
+    display: center;
+    margin-top: 15rem;
+    margin-bottom: -13rem;
+    background: url(img\visitanos.gif);
+}
+.map > iframe{
+    width: 240px;    
+ }
+ .animate__wobble{
+               margin-top: 13rem;
+               margin-bottom: -3rem;
+ }
+ .form-register {
+    background-color:rgb(90, 110, 190);
+    width: 99%;  
+    margin: 20px;
+    display: block;
+    height: 750px;
+    font-size: large;
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+}
