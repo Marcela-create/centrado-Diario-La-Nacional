@@ -251,8 +251,8 @@ article{
     width: min-content;
 }
 .imgespectaculo{
-    display: none;
- 
+    width: 80px;
+    height: 50px;
 }
 .container{
     font-size: x-large;
@@ -263,7 +263,12 @@ article{
 /*sección deporte y company de espectaculos*/
 
 .imagDeporte{
-    display: none;
+    width:300;
+     height:200; 
+    float: left;
+    margin: 10px;
+    margin-top: 10px;
+    width: 30%;
  }
 
 .textoDeporte{
@@ -373,9 +378,7 @@ aside{
     border-radius: 6px;
     border: #7145e9;
  }
- .fritas{
-    display: none;
- }
+
 /*seccion registro*/
 .derecha{
      text-align: left;
