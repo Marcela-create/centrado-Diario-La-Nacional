@@ -127,7 +127,9 @@ footer span img{
     text-align: center;
     
 } 
-
+.iconos{
+    width: 10%;
+}
 .link-2 a{
     text-decoration: none;
     margin-top: -20px;
@@ -139,7 +141,7 @@ article{
     border: solid rgb(75, 75, 162);
     margin: auto;
    justify-content: center;
-   width: 340px;
+   width: 330px;
    border-radius: 6px;
 }
 /*casa de cambio*/
@@ -206,13 +208,15 @@ article{
     height: 180px;
     margin-top: 5px;
 }
-
+.cocacola{
+    margin-top: 15px;
+}
 /*fecha*/
 #fecha{
     width: 100%;
     border: 10px;
     padding: 1px;
-    height: 30%;
+    height: 5%;
     image-orientation: center;
     border-style: ridge;
     border-radius: 6px;
@@ -259,9 +263,12 @@ article{
 /*sección deporte y company de espectaculos*/
 
 .imagDeporte{
-    width: min-content;
-  
-}
+      
+    float: left;
+    margin: 10px;
+    margin-top: 10px;
+    width: 30%;
+ }
 
 .textoDeporte{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -277,8 +284,7 @@ article{
     height: max-content;
     background:rgb(90, 110, 190);
     text-align: center;
-    margin: 1rem;
-   
+    margin: 1rem;  
    margin-top: 0.5rem;
    border-radius: 10px;
    font-size: large;
@@ -357,6 +363,20 @@ aside{
    border-radius: 10px;
    font-size: large;
 }
+
+
+.Imgesp{
+    width: 20%;   
+    height: 20%;
+    image-orientation: center;
+    border-style: ridge;
+    border-radius: 6px;
+    border: #7145e9;
+ }
+ .fritas{
+    width: 30%;
+    height: 30%;
+ }
 /*seccion registro*/
 .derecha{
      text-align: left;
@@ -452,6 +472,7 @@ aside{
     span{
         font-size: 4rem;
     }
+
     h1{
         font-size: 20rem;
     }
@@ -529,10 +550,7 @@ aside{
        margin-top: 10px;
     }
     
-    footer span img{
-        max-width:20px;
-        max-height:20px;
-    }
+    
     /*Seccion politica*/
      /*casa de cambio*/
     .container2{
