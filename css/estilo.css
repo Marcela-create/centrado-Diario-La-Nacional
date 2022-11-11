@@ -251,8 +251,8 @@ article{
     width: min-content;
 }
 .imgespectaculo{
-    width: 80px;
-    height: 50px;
+    display: none;
+ 
 }
 .container{
     font-size: x-large;
@@ -263,11 +263,7 @@ article{
 /*sección deporte y company de espectaculos*/
 
 .imagDeporte{
-      
-    float: left;
-    margin: 10px;
-    margin-top: 10px;
-    width: 30%;
+    display: none;
  }
 
 .textoDeporte{
@@ -363,10 +359,14 @@ aside{
    border-radius: 10px;
    font-size: large;
 }
-
+.imgespectaculo{
+    width: 10%;
+    height: 10%;
+   
+}
 
 .Imgesp{
-    width: 20%;   
+    width: 100%;   
     height: 20%;
     image-orientation: center;
     border-style: ridge;
@@ -374,8 +374,7 @@ aside{
     border: #7145e9;
  }
  .fritas{
-    width: 30%;
-    height: 30%;
+    display: none;
  }
 /*seccion registro*/
 .derecha{
